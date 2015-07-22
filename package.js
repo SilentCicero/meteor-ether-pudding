@@ -7,10 +7,6 @@ Package.describe({
   documentation: 'README.md'
 });
 
-Npm.depends({
-    'ether-pudding': '0.9.0'
-});
-
 Package.onUse(function(api) {
   api.versionsFrom('1.0.3.2');
 
