@@ -15,5 +15,7 @@ Package.onUse(function(api) {
   api.versionsFrom('1.0.3.2');
 
   api.export(['Pudding'], ['client']);
+  
+  api.add_files('lib/ether-pudding.js', 'client');
   api.add_files('package-init.js', 'client');
 });
